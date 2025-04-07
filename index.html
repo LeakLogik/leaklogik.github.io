@@ -1,46 +1,104 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="icon" href="media/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Samuel Grayson's Personal Website</title>
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand bg-dark navbar-dark">
+    <title>LeakLogik - Smart Toilet Valves to Stop Water Waste</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        main{
+            background-color: #e6f1f8;          
+        }
+        header {
+            background-color: #2c8ec8;
+            color: #e6f1f8;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 0 2rem;
+        }
+        .hero {
+            text-align: center;
+            padding: 2rem 0;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 2rem 0;
+        }
+        .feature {
+            flex-basis: 30%;
+            margin-bottom: 1rem;
+        }
+        footer {
+            background-color: #2c8ec8;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
         <div class="container">
-        <a href="#" class="navbar-brand">SamuelGrayson.net</a>
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav ms-auto">
-                <li class="navbar-item">
-                    <a href="media/resume.pdf" class="nav-link">Resumé</a>
-                    </li>
-                </ul>
+            <h1>LeakLogik</h1>
+            <p>Smart Toilet Valves to Stop Water Waste</p>
+        </div>
+    </header>
+<main>
+    <section class="container hero">
+        <h2>Stop Wasting Water From Leaky Toilets</h2>
+        <p>Our smart toilet valve automatically detects leaks and shuts off water flow, saving thousands of gallons per year.</p>
+        <img src="valve-image.jpg" alt="LeakLogik Smart Valve" width="400">
+    </section>
+
+    <section class="container">
+        <h2>How LeakLogik Works</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>Leak Detection</h3>
+                <p>Our smart sensors detect continuous water flow that indicates a leak.</p>
+            </div>
+            <div class="feature">
+                <h3>Automatic Shutoff</h3>
+                <p>When a leak is detected, the valve automatically stops the water flow.</p>
+            </div>
+            <div class="feature">
+                <h3>Smart Alerts</h3>
+                <p>Get notified on your phone when a leak is detected and stopped.</p>
             </div>
         </div>
-    </nav>
-
-    <!-- Showcase -->
-
-    <section class="bg-dark    text-light p-5 text-center">
-      <div class="container">
-        <div class="d-sm-flex">
-          <div>
-            <h1>Hi there &#128075 Nice to meet you!<br> I'm <span class="text-warning">Samuel Grayson</span>...&nbsp&nbsp</h1>
-            <p class="lead">
-              ...a current second year student at <span style="color:#4E2A84"><b> Northwestern University</b></span> studying computer engineering.
-              <!--   Please take some time to see what I've been up to below! -->
-            </p>
-          </div>
-          <img class="img-fluid rounded ms-auto w-50" src="media/samuel.png" alt="Photo of Samuel Grayson"/>
-        </div>
-      </div>
     </section>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+
+    <section class="container">
+        <h2>Save Water, Save Money</h2>
+        <p>A leaky toilet can waste up to 200 gallons of water per day. LeakLogik prevents this waste, saving you money on your water bill and helping conserve our planet's precious water resources.</p>
+    </section>
+
+    <section class="container">
+        <h2>Get LeakLogik Today</h2>
+        <p>Coming soon to major retailers. Sign up to be notified when LeakLogik is available.</p>
+        <form>
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Notify Me</button>
+        </form>
+    </section>
+</main> 
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 LeakLogik. All rights reserved.</p>
+            <p>Contact: info@leaklogik.com</p>
+        </div>
+    </footer>
+</body>
 </html>
