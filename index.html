@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
+ <!-- Import the component -->
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -60,6 +64,9 @@
         <h2>Stop Wasting Water From Leaky Toilets</h2>
         <p>Our smart toilet valve automatically detects leaks and shuts off water flow, saving thousands of gallons per year.</p>
         <img src="media.jpg" alt="LeakLogik Smart Valve" width="400">
+        <!-- Use it like any other HTML element -->
+        <model-viewer alt"LeakLogik3D" src="ll.glb" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+
     </section>
 
     <section class="container">
