@@ -87,7 +87,8 @@
 <body>
     <header>
         <div class="container">
-            <img src="LeakLogikLogo.jpg" alt="LeakLogik Smart Valve" width="500" style="margin-bottom:0.5rem;">
+            <img src="LeakLogikLogo.jpg" alt="LeakLogik Smart Valve"
+     style="margin-bottom:0.5rem; width:60%; max-width:60vw; height:auto; display:block; margin-left:auto; margin-right:auto;">
             <h1 style="font-size:3rem; color:#000000; font-weight:900; line-height:1.05; margin-top:0; margin-bottom:0;">
               The Logical Solution to Stop Leaks Fast
               <span style="color:#000000; display:inline-block;"></span>
@@ -152,8 +153,20 @@
     <section class="container hero">
         <div style="display: flex; flex-direction: column; align-items: center; margin-top: 1.5rem;">
             <h2 style="text-align: center;">LeakLogik in 3D</h2>
-                <model-viewer src="ll.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" camera-orbit="32.62deg 66.85deg 776m" field-of-view="13.09deg">
-                <div class="progress-bar hide" slot="progress-bar">
+            <model-viewer 
+    src="f4_version2.glb" 
+    ar 
+    ar-modes="webxr scene-viewer quick-look" 
+    camera-controls 
+    tone-mapping="neutral" 
+    poster="poster.webp" 
+    shadow-intensity="1" 
+    camera-orbit="32.62deg 66.85deg 776m" 
+    field-of-view="13.09deg"
+    style="width:600px; height:400px; max-width:100%;"
+    width="600" height="400">
+</model-viewer>
+            <div class="progress-bar hide" slot="progress-bar">
                     <div class="update-bar"></div>
                 </div>
                 <!-- <button slot="ar-button" id="ar-button">
