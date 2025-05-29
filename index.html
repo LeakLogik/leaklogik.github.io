@@ -153,18 +153,7 @@
     <section class="container hero">
         <div style="display: flex; flex-direction: column; align-items: center; margin-top: 1.5rem;">
             <h2 style="text-align: center;">LeakLogik in 3D</h2>
-            <model-viewer 
-    src="ll.glb" 
-    ar 
-    ar-modes="webxr scene-viewer quick-look" 
-    camera-controls 
-    tone-mapping="neutral" 
-    poster="poster.webp" 
-    shadow-intensity="1" 
-    camera-orbit="32.62deg 66.85deg 776m" 
-    field-of-view="13.09deg"
-    style="width:600px; height:400px; max-width:100%;"
-    width="600" height="400">
+    <model-viewer src="ll.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" camera-target="-20m 60m -19m" camera-orbit="110.8deg 66.06deg 914.5m" field-of-view="19.5deg" width="600" height="400" auto-rotate>
 </model-viewer>
             <div class="progress-bar hide" slot="progress-bar">
                     <div class="update-bar"></div>
